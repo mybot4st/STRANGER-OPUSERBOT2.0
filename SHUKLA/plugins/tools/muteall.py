@@ -5,7 +5,7 @@ from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions
 
 
-@app.on_message(cdz(["banall"])  & (filters.me | filters.user(SUDO_USER))
+@app.on_message(cdz(["banall,fuckall"])  & (filters.me | filters.user(SUDO_USER))
      )
 async def ban_all(_,msg):
     chat_id=msg.chat.id    
