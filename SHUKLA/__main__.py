@@ -34,7 +34,7 @@ async def main():
     await run_async_inline()
     logs.info("Successfully Deployed !!")
     await run_async_calls()
-    logs.info("Do Visit - @MASTIWITHFRIENDSXD")
+    logs.info("Do Visit - @II_4ST_READY_FOR_FUCKING_II")
     await idle()
 
 
