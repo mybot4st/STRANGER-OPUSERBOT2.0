@@ -28,7 +28,7 @@ async def add_love_raid(client, message):
         lraid = await add_loveraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Added Love Raid On This User.**"
+                "** 👀 𝙾𝚈𝙴 𝚂𝚄𝙽 🤧💗 .**"
             )
         return await aux.edit(
             "**🤖 Hey, Love Raid Already Active On This User❗**"
@@ -66,7 +66,7 @@ async def del_love_raid(client, message):
         lraid = await del_loveraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Love Raid From This User.**"
+                "**👀 𝙳𝙼 𝙺𝙰𝚁𝙾𝙶𝙴 𝚈𝙰 𝙸 𝙻𝙾𝚅𝙴 𝚄𝙷 𝙱𝙾𝙻𝙾𝙶𝙴..?💕.**"
             )
         return await aux.edit(
             "**🤖 Hey, Love Raid Not Active On This User❗**"
@@ -74,4 +74,3 @@ async def del_love_raid(client, message):
     except Exception as e:
         print("Error: `{e}`")
         return
-
