@@ -44,7 +44,7 @@ async def alt_mkc(xspam: Client, message: Message):
     
     
 
-@app.on_message(cdz(["stop"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["rrandi"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_stop(_, message: Message):    
     reply = await message.reply_text("sᴛᴏᴘᴘɪɴɢ ...")
     await reply.edit("sᴛᴏᴘᴘᴇᴅ !!\n\nᴡᴀɪᴛ ғᴏʀ 2 ᴍɪɴᴜᴛᴇs !!")
