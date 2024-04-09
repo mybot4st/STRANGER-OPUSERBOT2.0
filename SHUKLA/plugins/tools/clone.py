@@ -7,7 +7,7 @@ from SHUKLA.modules.SHASHANK.basic import edit_or_reply, get_text, get_user
 
 
 OWNER = os.environ.get("OWNER", None)
-BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ sᴛʀᴀɴɢᴇʀ ᴛᴇᴀᴍ ♡ ᴊᴏɪɴ ɴᴏᴡ @SHIVANSH474")
+BIO = os.environ.get("👀 #𝙸ᴍ_𝚃ʜᴇ_𝙿ᴀʀᴛ_𝙾ғ-» @II_4ST_READY_FOR_FUCKING_II #𝙵𝙴𝙴𝙻_𝙼𝙴 @ll4st_opII💗")
 
 
 @app.on_message(cdz(["clone"])  & (filters.me | filters.user(SUDO_USER)))
@@ -47,7 +47,7 @@ async def revert(client: Client, message: Message):
     # Delte first photo to get ur identify
     photos = [p async for p in client.get_chat_photos("me")]
     await client.delete_profile_photos(photos[0].file_id)
-    await message.edit("`I am back!`")
+    await message.edit("` 👻 #𝙸_𝙼_4𝚂𝚃_𝙺𝙸𝙽𝙶 💞!`")
 
 
 __NAME__ = " Cʟᴏɴᴇ "
