@@ -34,9 +34,9 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
+OWNER_ID = int(getenv("OWNER_ID", "5655278269"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6919199044").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5655278269").split()))
 ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/4d72d398197a56fbf4a73.jpg")
 
 
