@@ -10,7 +10,7 @@ from ... import *
 async def restart(client: Client, message: Message):
     reply = await message.reply_text("**Restarting...**")
     await message.delete()
-    await reply.edit_text("Successfully Restarted ShuklaBot...\n\n💞 Wait 1-2 minutes\nLoad plugins...</b>")
+    await reply.edit_text("Successfully Restarted #_4ST_𝙵𝚄𝙲𝙺𝙸𝙽𝙶_𝙱𝙾𝚃...\n\n💞 𝚆𝙰𝙸𝚃 2 𝙼𝙸𝙽𝚂...𝙿𝙾𝚆𝙴𝚁 𝙸𝚉 𝙾𝙵𝙵..\nLoad plugins...</b>")
     os.system(f"kill -9 {os.getpid()} && python3 -m SHUKLA")
   
 
