@@ -41,7 +41,7 @@ async def stats(client: Client, message: Message):
         """`Your Stats Obtained in {} seconds`
 `You have {} Private Messages.`
 `You are in {} Groups.`
-`You are in {} Super Groups.`
+`You are in {} #_4𝚂𝚃 Super Groups.`
 `You Are in {} Channels.`
 `You Are Admin in {} Chats.`
 `Bots = {}`""".format(
