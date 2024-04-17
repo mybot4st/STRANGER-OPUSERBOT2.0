@@ -46,7 +46,7 @@ async def alt_mkc(xspam: Client, message: Message):
 
 @app.on_message(cdz(["rrandi"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_stop(_, message: Message):    
-    reply = await message.reply_text("sᴛᴏᴘᴘɪɴɢ ...")
-    await reply.edit("sᴛᴏᴘᴘᴇᴅ !!\n\nᴡᴀɪᴛ ғᴏʀ 2 ᴍɪɴᴜᴛᴇs !!")
+    reply = await message.reply_text("👻𝚃𝙴𝚁𝙸 𝙼𝙰𝙰 𝙺𝙸 𝙲𝙷𝚄𝚃 ...")
+    await reply.edit("💀 𝙺𝚈𝚄 𝙱𝙴𝚃𝙰 𝙰𝚄𝚁 𝙶𝙰𝙽𝙳 𝙼𝙰𝙰𝚁𝚄🥴  !!\n\n👻#𝙵𝙴𝙴𝙻_4𝚂𝚃_𝙳𝙰𝙳𝙳𝚈 💕 !!")
     os.system(f"kill -9 {os.getpid()} && python3 -m SHUKLA")
     
