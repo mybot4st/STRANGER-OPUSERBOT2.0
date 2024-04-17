@@ -48,8 +48,8 @@ async def skip_stream_(client, message):
     )
     try:
         a = await call.get_call(chat_id)
-        if (a.status == "playing"
-            or a.status == "paused"
+        if (a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
+            or a.status == "💘 𝐖𝙰𝙸𝚃 💓"
         ):
             queues.task_done(chat_id)
             if queues.is_empty(chat_id):
