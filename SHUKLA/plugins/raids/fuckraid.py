@@ -28,10 +28,10 @@ async def add_fuck_raid(client, message):
         fraid = await add_fuckraid_user(user_id)
         if fraid:
             return await aux.edit(
-                "**🤖 Successfully Added Reply Raid On This User.**"
+                "**😁𝐎𝚈𝙴 𝚂𝚄𝙽 𝚁𝙰𝙽𝙸 𝙱𝙰𝙲𝙲𝙷𝙴😂🤣**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Already Active On This User❗**"
+            "**😁𝐎𝚈𝙴 𝚂𝚄𝙽 𝚁𝙰𝙽𝙸 𝙱𝙰𝙲𝙲𝙷𝙴😂🤣**"
         )
     except Exception as e:
         print("Error: `{e}`")
@@ -66,10 +66,10 @@ async def del_fuck_raid(client, message):
         fraid = await del_fuckraid_user(user_id)
         if fraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Reply Raid From This User.**"
+                "**👻 𝙹𝙰𝙰 𝚂𝙰𝙹𝙽𝙰 𝚃𝚄𝙹𝙷𝙴 𝙲𝙷𝙾𝙳 𝙺𝙴 𝙳𝙵𝙽 𝙺𝚁 𝙳𝙸𝚈𝙰😻 #𝙵𝙴𝙴𝙻_4𝚂𝚃 😹.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Not Active On This User❗**"
+            "**👻 𝙹𝙰𝙰 𝚂𝙰𝙹𝙽𝙰 𝚃𝚄𝙹𝙷𝙴 𝙲𝙷𝙾𝙳 𝙺𝙴 𝙳𝙵𝙽 𝙺𝚁 𝙳𝙸𝚈𝙰😻 #𝙵𝙴𝙴𝙻_4𝚂𝚃 😹**"
         )
     except Exception as e:
         print("Error: `{e}`")
