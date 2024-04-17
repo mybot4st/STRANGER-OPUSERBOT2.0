@@ -45,7 +45,7 @@ async def run_async_enums():
                         check.pop(str(user_id))
                         flood.update({user_id: 0})
                     return await client.block_user(user_id)
-                pm_security = "**🤖 SECURITY WARNING ‼️ ({}/{})**".format(flood[str(user_id)], limits)
+                pm_security = "**👻 #𝙵𝙴𝙴𝙻_4𝚂𝚃_𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈_𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 💢 ‼️ ({}/{})**".format(flood[str(user_id)], limits)
                 pm_permit_text = pm_security + "\n\n" + permit_text
                 try:
                     msg_dlt = await message.reply_photo(
