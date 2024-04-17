@@ -48,9 +48,9 @@ async def audio_stream(client, message):
             if a.status == "not_playing":
                 stream = await run_stream(file, type)
                 await call.change_stream(chat_id, stream)
-                await aux.edit("Playing!")
-            elif (a.status == "playing"
-                or a.status == "paused"
+                await aux.edit("👻 𝐄𝙽𝙹𝙾𝚈 💕")
+            elif (a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
+                or a.status == "👀 𝐖𝙰𝙸𝚃 💌"
             ):
                 position = await queues.put(
                     chat_id, file=file, type=type
