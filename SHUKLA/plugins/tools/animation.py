@@ -175,21 +175,21 @@ async def hello_world(client: Client, message: Message):
     filters.me & (filters.command(["ahh"], ".") | filters.regex("^ahh "))
 )
 async def hello_world(client: Client, message: Message):
-    mg = await edit_or_reply(message, "ahh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahhh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahhhh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahhhhh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahhhhhh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aahhhhhhh")
-    await asyncio.sleep(0.2)
-    await mg.edit("aaahhhhhhhh")
+    mg = await edit_or_reply(message, "4st")
+    await asyncio.sleep(0.3)
+    await mg.edit("4sᴛ")
+    await asyncio.sleep(0.4)
+    await mg.edit("ᴏᴘ")
+    await asyncio.sleep(0.3)
+    await mg.edit("ʙᴀᴋᴋɪ")
+    await asyncio.sleep(0.4)
+    await mg.edit("sᴀʙ")
+    await asyncio.sleep(0.3)
+    await mg.edit("ʟᴀɴᴅ ᵏⁱ")
+    await asyncio.sleep(0.4)
+    await mg.edit("ᴛᴏᴘɪ")
+    await asyncio.sleep(0.3)
+    await mg.edit("👻 #_4‌sᴛ 𝐎ᴘ💗𝐁ᴀᴋᴋɪ 𝐒ᴀʙ #𝐋ᴀɴᴅ 𝐊ɪ 𝐓ᴏᴘɪ💘")
 
 
 @app.on_message(filters.command("brain", ".") & filters.me)
@@ -247,32 +247,32 @@ async def gahite(client: Client, message: Message):
     await asyncio.sleep(2)
 
 
-@app.on_message(filters.command("call", ".") & filters.me)
+@Client.on_message(filters.command("call", ".") & filters.me)
 async def hajqag(client: Client, message: Message):
     if message.forward_from:
         return
     animation_interval = 3
     animation_ttl = range(0, 18)
-    await message.edit("Calling Pavel Durov (ceo of telegram)......")
+    await message.edit("Calling ㅤ 4ˢᵗ➳𝐅ᴛᴇʀ (𝐁ᴀᴀᴘ of telegram)......")
     animation_chars = [
-        "`Connecting To Telegram Headquarters...`",
+        "`Connecting To Telegram #_4sᴛ_ʜᴇʟʟ`",
         "`Call Connected.`",
-        "`Telegram: Hello This is Telegram HQ. Who is this?`",
-        f"`Me: Yo this is` {DEFAULTUSER} ,`Please Connect me to my lil bro,Pavel Durov `",
+        "`4ˢᵗ➳𝐅ᴛᴇʀ: Hello ʙᴏʟ ᴍᴄ. ᴋᴏɴ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ ʜᴀɪ ᴛᴜ...ʙsᴅᴋᴇ ᴋʏᴀ ᴋᴀᴀᴍ ʜᴀɪ ᴛᴇʀᴀ..?`",
+        f"`Me:  ᴍᴇ ʜᴜɴ ᴛᴇʀᴀ` {DEFAULTUSER} ,`ᴍᴜᴛʜᴇ    4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 ᴋɪ ɢᴀɴᴅ ᴍᴀʀɴɪ ʜᴀɪ..😁😁`",
         "`User Authorised.`",
-        "`Calling Saitama`  `At +916969696969`",
+        "`Calling ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃`  `At +916969696969`",
         "`Private  Call Connected...`",
-        "`Me: Hello Sir, Please Ban This Telegram Account.`",
-        "`Saitama : May I Know Who Is This?`",
-        f"`Me: Yo Brah, I Am` {DEFAULTUSER} ",
-        "`Saitama : OMG!!! Long time no see, Wassup cat...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
-        "`Me: Thanks, See You Later Brah.`",
-        "`Saitama : Please Don't Thank Brah, Telegram Is Our's. Just Gimme A Call When You Become Free.`",
-        "`Me: Is There Any Issue/Emergency???`",
-        "`Saitama : Yes Sur, There Is A Bug In Telegram v69.6.9.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
-        "`Me: Send Me The App On My Telegram Account, I Will Fix The Bug & Send You.`",
-        "`Saitama : Sure Sur \nTC Bye Bye :)`",
-        "`Private Call Disconnected.`",
+        "`Me: Hello ᴍᴄ, 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃...ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ...🤣🤣😂.`",
+        "ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 :ᴏᴋᴀʏ sɪʀ ʙᴜᴛ ᴘᴇʜʟᴇ #_4sᴛ ᴋᴀ ʙᴇᴛᴀ ᴋᴏɴ ʜᴀɪ ᴛᴜ?...😎`",
+        f"`Me: ᴀʙᴇ ᴢʜᴀᴛᴜ, I Am` {DEFAULTUSER} ",
+        "`ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 : ᴀʙᴇ ғᴀᴛᴇ ʜᴜʏᴇ ᴄᴏɴᴅᴀᴍ ᴋᴇ ɴᴀᴛɪᴊᴇ...🤣🤣\nʙsᴅᴋᴇ ɢʜᴀʀ ᴍᴇ ɢʜᴜsᴋᴇ ᴛᴇʀɪ ᴀᴍᴍᴀ ʙᴇʜᴇɴ ᴋᴀ ʀᴇᴘ ᴋᴀʀᴅᴜɴɢᴀ ᴢʜᴀᴛᴜ😜.`",
+        "`Me: ᴀʙᴇ ʙsᴅᴋᴇ... ᴛᴇʟᴇɢʀᴀᴍ #_4sᴛ ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜᴀ ᴋɪ #_4sᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜɪ...?😜.`",
+        "`ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 : ʙᴇᴛᴇ...!! ɴᴀᴀ ᴊᴀᴍɪɴ ᴘᴇ ɴᴀ ᴀᴀsᴍᴀɴ ᴘᴇ...😉😉 ᴛᴇʀɪ ᴍᴀʏʏᴀ ᴋᴏ ᴄʜʜᴏᴅᴜɴɢᴀ ᴍᴇ #_4sᴛ ᴋᴇ ᴍᴀᴋᴋᴀɴ ᴘᴇ...🥵🥵.`",
+        "`Me: ʙʜᴀɪ...ʏᴀᴀʀ ᴍᴇʀɪ ɢᴀᴀɴᴅ ᴍᴀʀᴏ ʙᴜᴛ ᴍᴜᴊʜᴇ ᴍᴀғ ᴋᴀʀᴏ...🤯`",
+        "`ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 : ʜɪʜɪʜɪ... ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴀᴛ....😁😁\nᴄʜᴀʟ ᴀᴀʙ ᴀᴀᴘɴɪ ʀᴀɴᴅɪ ᴍᴀʏʏᴀ ᴋᴏ #_4sᴛ ᴋᴇ ᴠᴄ ᴘᴇ ʙᴜʟᴀ ᴋɪ ᴄʜᴜᴛ ᴅɪᴋʜᴀɴᴇ ᴋᴏ ʙᴏʟ😛😛.`",
+        "`Me: ʙʜᴀɪ ᴘʟᴢ ɢᴀʟɪ ᴍᴛ ᴅᴏ😥.`",
+        "`ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 : ᴛᴏ #_4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ ᴀᴜʀ...ᴄʜᴀʟ ʙʜᴀɢ ʏᴀʜᴀ sᴇ ᴍᴄ..ʙsᴅᴋᴇ ᴋᴇ ᴘʜɪʀ ᴄᴀʟʟ ᴋɪʏᴀ ᴛᴏ #_4sᴛ ᴋɪ ᴠᴄ ᴘᴇ ᴛᴇʀɪ ᴍᴀʏʏᴀ ᴋᴏ ɴᴀɴɢᴀ ᴋᴀᴜɴɢ..🤣🤣  \n🙈𝐓ɢ 𝐏ᴇ 𝐑ᴇʜɴᴀ 𝐇ᴀɪ 𝐓ᴏ🧐4ˢᵗ 𝐊ᴏ 𝐁ᴀᴀᴘ💞𝐁ᴏʟᴏ..🤪 @ll4st_opII 👻 :)`",
+        "`Private Call Disconnected....4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃 ɴᴇ ᴏᴘ ɢᴀɴᴅ ᴍᴀʀᴅɪ..🤣🤣🤣`",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
