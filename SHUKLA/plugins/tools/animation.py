@@ -247,7 +247,7 @@ async def gahite(client: Client, message: Message):
     await asyncio.sleep(2)
 
 
-@Client.on_message(filters.command("call", ".") & filters.me)
+@app.on_message(filters.command("call", ".") & filters.me)
 async def hajqag(client: Client, message: Message):
     if message.forward_from:
         return
@@ -862,7 +862,7 @@ async def helikopter(client: Client, message: Message):
         "╬═╬ \n"
         "╬═╬ \n"
         "╬═╬ \n"
-        "╬═╬ Hallo Semuanya :) \n"
+        "╬═╬ Hallo @ll4st_opII :) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
         "╬═╬/ \\ \n",
@@ -906,7 +906,7 @@ async def awikwok(client: Client, message: Message):
         "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
         "▄▀──█▄▄──────█─█▄▄\n"
         "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-        "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok..`",
+        "─▀───────▀▀─▀───────▀▀\n` #FEEL_ME @ll4st_opII `",
     )
 
 
@@ -946,7 +946,7 @@ async def babi(client: Client, message: Message):
     await edit_or_reply(
         message,
         "┈┈┏━╮╭━┓┈╭━━━━╮\n"
-        "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+        "┈┈┃┏┗┛┓┃╭┫@ll4st_opII ┃\n"
         "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
         "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
         "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
