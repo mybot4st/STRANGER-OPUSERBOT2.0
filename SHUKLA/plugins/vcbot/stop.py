@@ -13,7 +13,7 @@ async def stop_stream(client, message):
     chat_id = message.chat.id
     try:
         a = await call.get_call(chat_id)
-        if (a.status == "playing"
+        if (a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
             or a.status == "paused"
         ):
             try:
@@ -41,7 +41,7 @@ async def stop_stream_chat(client, message):
     )
     try:
         a = await call.get_call(chat_id)
-        if (a.status == "playing"
+        if (a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
             or a.status == "paused"
         ):
             try:
@@ -66,7 +66,7 @@ async def close_stream_(client, message):
     try:
         a = await call.get_call(chat_id)
         if (a.status == "not_playing"
-            or a.status == "playing"
+            or a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
             or a.status == "paused"
         ):
             try:
@@ -94,7 +94,7 @@ async def close_stream_chat(client, message):
     try:
         a = await call.get_call(chat_id)
         if (a.status == "not_playing"
-            or a.status == "playing"
+            or a.status == "👻 𝐄𝙽𝙹𝙾𝚈 💕"
             or a.status == "paused"
         ):
             try:
