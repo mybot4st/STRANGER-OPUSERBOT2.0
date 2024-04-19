@@ -26,4 +26,4 @@ bs4
 humanize
 aiofiles
 requests==2.31.0
-ntgcalls
+
